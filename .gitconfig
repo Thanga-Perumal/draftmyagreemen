@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Thanga
+	email = t.perumal@42law.com
+[safe]
+	directory = C:/Users/thang/OneDrive/Desktop/my-website
+	directory = C:/Users/thang/OneDrive/Desktop/draftmyagreement-clean
+	directory = C:/Users/thang/OneDrive/Desktop/draftmyagreement-clean/draftmyagreement
